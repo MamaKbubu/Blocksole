@@ -11,7 +11,7 @@ const Nav = () => {
                 src={headerLogo}
                 alt='Logo'
                 width={300}
-                height={29}
+                height={60}
                 />
             </a>
             <ul className='flex-1 flex justify-center items-center gap-16 max-lg:hidden '>
@@ -31,7 +31,7 @@ const Nav = () => {
                 // TODO: Add logic to show the mobile menu
                 src={hamburger}
                 alt='Hamburger'
-                width={25}
+                width={50}
                 height={25}/>
 
             </div>
