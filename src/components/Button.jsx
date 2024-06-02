@@ -5,11 +5,11 @@ const Button = ( {label, iconURL}) => {
     font-montserrat text-lg leading-none
     bg-coral-red rounded-full text-white border-coral-red">
         {label}
-        <img
+        {iconURL && <img
         
         src={iconURL}
         alt="Arrow Right Icon"
-        className="ml-2 rounded-full w-5 h-5"/>
+        className="ml-2 rounded-full w-5 h-5"/>}
     </button>
   )
 }
