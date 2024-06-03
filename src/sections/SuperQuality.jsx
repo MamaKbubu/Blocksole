@@ -14,15 +14,19 @@ const SuperQuality = () => {
           <span className='text-coral-red'>Quality </span> Shoes
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+        BlockSole offers buyers transparent and secure transactions. 
+        By leveraging blockchain, buyers can verify authenticity, 
+        track transaction history, and ensure fair 
+        pricing, solving common issues faced when 
+        buying from resellers on other platforms.
         </p>
         <p className='mt-6 lg:max-w-lg info-text'>
-          Our dedication to detail and excellence ensures your satisfaction
+        "Step into the <span className="
+        text-coral-red">future of sneaker shopping</span> with BlockSole"
         </p>
-        <div className='mt-11'>
-          <Button label='View details' />
+        <div className='mt-11 font-bold '>
+          <Button label='Shop Now!'
+          className='hover:scale-105 transition-transform duration-300' />
         </div>
       </div>
 
@@ -32,7 +36,7 @@ const SuperQuality = () => {
           alt='product detail'
           width={570}
           height={522}
-          className='object-contain'
+          className='object-contain hover:scale-105 transition-transform duration-300 cursor-pointer'
         />
       </div>
     </section>
