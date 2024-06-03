@@ -8,7 +8,27 @@ const ReviewCard = ( {imgURL, customerName, rating, feedback }) => {
         alt="Customer"
         className="rounded-full object-cover w-[120px] h-[120px]"/>
         <p className="mt-6 max-w-sm text-center info-text">{feedback}</p>
-        <div className="mt-3 flex justify-center items-center gap-2.5">
+        <div className="mt-3 flex justify-center items-center gap-1">
+            <img
+            src={star}
+            width={24}
+            height={24}
+            className="object-contain m-0"/>
+            <img
+            src={star}
+            width={24}
+            height={24}
+            className="object-contain m-0"/>
+            <img
+            src={star}
+            width={24}
+            height={24}
+            className="object-contain m-0"/>
+            <img
+            src={star}
+            width={24}
+            height={24}
+            className="object-contain m-0"/>
             <img
             src={star}
             width={24}
